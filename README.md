@@ -4,10 +4,6 @@ I am currently pursuing a Bachelor's degree in Computer Science 🎓, with the u
 
 I'm always open and eager to embrace new experiences and opportunities🌍. 
 
-<a href="https://perruzz.github.io/Perruzz/">
-  <img src="https://cdn-icons-png.flaticon.com/512/6588/6588161.png" alt="Curriculum Logo" width="60"/>
-</a>
-
 ### Contact me
 <a href="https://www.linkedin.com/in/andrea-perozzo">
   <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn Logo" width="40"/>
