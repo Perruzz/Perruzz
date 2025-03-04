@@ -1,7 +1,6 @@
 # Hi👋, I'm Andrea
 
-I am currently pursuing a Bachelor's degree in Computer Science 🎓, with the ultimate goal of earning a Master's degree 🚀. In the meantime, I'm dedicated to gaining hands-on experience as a developer💪🏻, with particular interests in backend development💻, pentesting🔓, low-level programming⚙️, fintech📈, bioinformatics🧬, and artificial intelligence🤖.
-
+I am currently pursuing a Bachelor's degree in Computer Science 🎓, with the ultimate goal of earning a Master's degree 🚀. In the meantime, I'm dedicated to gaining experience in coding, with particular interests in backend development💻, low-level languages⚙️ and bioinformatics🧬.
 I'm always open and eager to embrace new experiences and opportunities🌍. 
 
 ### Contact me
