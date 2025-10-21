@@ -1,6 +1,6 @@
 # Hi👋, I'm Andrea
 
-I am currently pursuing a Bachelor's degree in Computer Science 🎓, with the ultimate goal of earning a Master's degree 🚀.
+I am currently pursuing a Master's degree in Computer Science 🎓
 
 ### Contact me
 <a href="https://www.linkedin.com/in/andrea-perozzo">
