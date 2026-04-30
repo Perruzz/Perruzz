@@ -39,7 +39,7 @@ class AboutSection extends StatelessWidget {
                   ),
                   const SizedBox(height: 16),
                   Text(
-                    'Beyond the screen, I stay active through swimming and fitness, sharpen my mind over a chessboard, and study geopolitics with the same analytical rigor I apply to systems. I am deeply fascinated by medicine and chemistry, feed a broad curiosity through reading manga — Berserk is my absolute favorite — traveling, and managing my personal finances with the same discipline I bring to code architecture. I value social relationships above all and never stop growing.',
+                    'Beyond the screen, I stay active through swimming and fitness, sharpen my mind over a chessboard, and study geopolitics with the same analytical rigor I apply to systems. I am deeply fascinated by medicine and chemistry, feed a broad curiosity through reading manga, traveling, and managing my personal finances with the same discipline I bring to code architecture. I value social relationships above all and never stop growing.',
                     style: Theme.of(context).textTheme.bodyMedium,
                   ),
                   const SizedBox(height: 16),
