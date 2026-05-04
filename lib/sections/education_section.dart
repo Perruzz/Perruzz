@@ -33,12 +33,6 @@ class EducationSection extends StatelessWidget {
       'degree': 'Diploma in Industrial Electrical Systems',
       'note': '',
     },
-    {
-      'school': 'Personal Project',
-      'period': '2026',
-      'degree': 'Portfolio Website',
-      'note': 'https://perruzz.github.io/Perruzz',
-    },
   ];
 
   @override

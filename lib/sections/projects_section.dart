@@ -34,6 +34,11 @@ class ProjectsSection extends StatelessWidget {
       'desc': 'Local POI discovery app with Agile methodologies.',
       'url': 'https://github.com/SWEatUNIPD/NearYou',
     },
+    {
+      'title': 'Portfolio',
+      'desc': 'Personal portfolio website built with Flutter and Dart.',
+      'url': 'https://perruzz.github.io/Perruzz',
+    },
   ];
 
   Future<void> _launch(String url) async {
