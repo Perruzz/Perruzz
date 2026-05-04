@@ -17,6 +17,13 @@ class ContactSection extends StatelessWidget {
     if (await canLaunchUrl(uri)) await launchUrl(uri);
   }
 
+  Future<void> _launchCv() async {
+    final uri = Uri.parse('https://perruzz.github.io/Perruzz/andrea_perozzo_cv.pdf');
+    if (await canLaunchUrl(uri)) {
+      await launchUrl(uri, mode: LaunchMode.externalApplication);
+    }
+  }
+
   @override
   Widget build(BuildContext context) {
     final isMobile = MediaQuery.of(context).size.width < 800;
@@ -52,7 +59,34 @@ class ContactSection extends StatelessWidget {
                       color: MangaTheme.white.withOpacity(0.9),
                     ),
                   ),
-                  const SizedBox(height: 32),
+                  const SizedBox(height: 24),
+                  ScrollReveal(
+                    delay: const Duration(milliseconds: 100),
+                    scaleFrom: 0.95,
+                    scaleTo: 1.0,
+                    child: GestureDetector(
+                      onTap: _launchCv,
+                      child: Container(
+                        width: double.infinity,
+                        padding: const EdgeInsets.symmetric(vertical: 16),
+                        decoration: BoxDecoration(
+                          color: MangaTheme.white,
+                          border: Border.all(color: MangaTheme.white, width: 3),
+                        ),
+                        child: const Text(
+                          'DOWNLOAD CV',
+                          textAlign: TextAlign.center,
+                          style: TextStyle(
+                            color: MangaTheme.black,
+                            fontWeight: FontWeight.w800,
+                            fontSize: 16,
+                            letterSpacing: 1,
+                          ),
+                        ),
+                      ),
+                    ),
+                  ),
+                  const SizedBox(height: 16),
                   ScrollReveal(
                     delay: const Duration(milliseconds: 150),
                     scaleFrom: 0.95,

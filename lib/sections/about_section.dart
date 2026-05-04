@@ -27,19 +27,14 @@ class AboutSection extends StatelessWidget {
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   Text(
-                    'From industrial electrical systems to network security and full-stack web architecture.',
+                    'Driven by an insatiable curiosity and a competitive mindset, I am constantly seeking new knowledge and challenges across technical and scientific domains. I thrive in environments that push me to learn, adapt, and improve. I believe deeply in the value of social relationships, constructive debate, and continuous personal growth.',
                     style: Theme.of(context).textTheme.bodyLarge?.copyWith(
                       fontWeight: FontWeight.w600,
                     ),
                   ),
                   const SizedBox(height: 16),
                   Text(
-                    'Currently engineering high-performance platforms at Wavelop while pursuing a Master\'s in Computer Science at the University of Padua. I believe in continuous learning, analytical thinking, and the value of building resilient systems.',
-                    style: Theme.of(context).textTheme.bodyMedium,
-                  ),
-                  const SizedBox(height: 16),
-                  Text(
-                    'Beyond the screen, I stay active through swimming and fitness, sharpen my mind over a chessboard, and study geopolitics with the same analytical rigor I apply to systems. I am deeply fascinated by medicine and chemistry, feed a broad curiosity through reading manga, traveling, and managing my personal finances with the same discipline I bring to code architecture. I value social relationships above all and never stop growing.',
+                    'Outside of work, I stay active through swimming and fitness, enjoy chess as a mental challenge, and apply an analytical mindset to geopolitics. I am deeply fascinated by the sciences, particularly medicine and chemistry, and I feed a broad curiosity through reading manga, traveling, and actively managing my personal finances and investment portfolio with a strong passion for markets and long-term wealth building.',
                     style: Theme.of(context).textTheme.bodyMedium,
                   ),
                   const SizedBox(height: 16),
@@ -47,10 +42,12 @@ class AboutSection extends StatelessWidget {
                     spacing: 8,
                     runSpacing: 8,
                     children: [
-                      _buildTraitBadge('PERSEVERANCE'),
+                      _buildTraitBadge('CURIOSITY'),
+                      _buildTraitBadge('COMPETITIVENESS'),
                       _buildTraitBadge('ADAPTABILITY'),
+                      _buildTraitBadge('CONTINUOUS GROWTH'),
+                      _buildTraitBadge('SOCIAL RELATIONSHIPS'),
                       _buildTraitBadge('ANALYTICAL'),
-                      _buildTraitBadge('TEAM PLAYER'),
                     ],
                   ),
                 ],

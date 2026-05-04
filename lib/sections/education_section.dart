@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:url_launcher/url_launcher.dart';
 import '../theme/app_theme.dart';
 import '../widgets/manga_panel.dart';
 import '../widgets/scroll_reveal.dart';
@@ -31,6 +32,12 @@ class EducationSection extends StatelessWidget {
       'period': '2014 - 2019',
       'degree': 'Diploma in Industrial Electrical Systems',
       'note': '',
+    },
+    {
+      'school': 'Personal Project',
+      'period': '2026',
+      'degree': 'Portfolio Website',
+      'note': 'https://perruzz.github.io/Perruzz',
     },
   ];
 
@@ -101,14 +108,32 @@ class EducationSection extends StatelessWidget {
                         if (edu['note']!.isNotEmpty)
                           Padding(
                             padding: const EdgeInsets.only(top: 4),
-                            child: Text(
-                              edu['note']!,
-                              style: TextStyle(
-                                fontSize: 12,
-                                fontWeight: FontWeight.w700,
-                                color: index % 2 != 0 ? MangaTheme.white.withOpacity(0.7) : MangaTheme.lightGrey,
-                              ),
-                            ),
+                            child: edu['note']!.startsWith('http')
+                                ? GestureDetector(
+                                    onTap: () async {
+                                      final uri = Uri.parse(edu['note']!);
+                                      if (await canLaunchUrl(uri)) {
+                                        await launchUrl(uri, mode: LaunchMode.externalApplication);
+                                      }
+                                    },
+                                    child: Text(
+                                      edu['note']!,
+                                      style: TextStyle(
+                                        fontSize: 12,
+                                        fontWeight: FontWeight.w700,
+                                        color: index % 2 != 0 ? MangaTheme.white.withOpacity(0.7) : MangaTheme.lightGrey,
+                                        decoration: TextDecoration.underline,
+                                      ),
+                                    ),
+                                  )
+                                : Text(
+                                    edu['note']!,
+                                    style: TextStyle(
+                                      fontSize: 12,
+                                      fontWeight: FontWeight.w700,
+                                      color: index % 2 != 0 ? MangaTheme.white.withOpacity(0.7) : MangaTheme.lightGrey,
+                                    ),
+                                  ),
                           ),
                       ],
                     ),

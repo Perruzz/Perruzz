@@ -11,37 +11,43 @@ class SkillsSection extends StatelessWidget {
     'Backend & Web': [
       'Next.js', 'React', 'Astro', 'HTML', 'CSS', 'JavaScript',
       'TypeScript', 'PHP', 'Node.js', 'Strapi', 'SQL', 'phpMyAdmin',
-      'PostgreSQL', 'MongoDB', 'Oracle', 'AWS', 'Docker'
+      'PostgreSQL', 'MongoDB', 'Oracle', 'AWS', 'Docker', 'Flutter', 'Dart',
     ],
     'Security & Infrastructure': [
       'OWASP', 'F5 BIG-IP', 'Burp Suite', 'TCP/IP', 'HTTP',
-      'VPN', 'Cryptography', 'Firewall', 'VMware Workstation'
+      'VPN', 'Cryptography', 'Firewall', 'VMware Workstation',
     ],
     'Programming & Frameworks': [
-      'C', 'C++', 'Qt', 'Python', 'Java', 'Apache Spark'
+      'C', 'C++', 'Qt', 'Python', 'Java', 'Apache Spark',
+    ],
+    'Scripting': [
+      'Bash scripting', 'Shell automation',
+    ],
+    'Software Engineering': [
+      'Design Patterns', 'System Architecture', 'SOLID principles',
     ],
     'Operating Systems & Tools': [
       'Linux (Debian, Fedora, Arch)', 'Windows', 'macOS',
-      'Git', 'GitHub', 'GitLab'
+      'Git', 'GitHub', 'GitLab',
     ],
     'Industrial & Automation': [
       'PLC Programming', 'Electropneumatics',
       'Electrical Schematic Design & Reading', 'Industrial Control Panels',
-      'Electrical Measurements & Instrumentation', 'Hardware Assembly & Calibration'
+      'Electrical Measurements & Instrumentation', 'Hardware Assembly & Calibration',
     ],
     'Documentation': [
-      'LaTeX', 'Typst'
+      'LaTeX', 'Typst',
     ],
     'Chemistry': [
-      'Organic Chemistry', 'Inorganic Chemistry', 'Biochemistry'
+      'Organic Chemistry', 'Inorganic Chemistry', 'Biochemistry',
     ],
     'Industrial Manufacturing': [
       'Diagnostic Troubleshooting', 'Field Service',
       'Technical Manual Writing', 'Technical Training',
-      'Production Line Setup & Transfer Support'
+      'Production Line Setup & Transfer Support',
     ],
     'Languages': [
-      'Italian (Native)', 'English (B2)'
+      'Italian (Native)', 'English (B2)',
     ],
   };
 
