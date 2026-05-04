@@ -27,14 +27,8 @@ class AboutSection extends StatelessWidget {
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   Text(
-                    'Driven by an insatiable curiosity and a competitive mindset, I am constantly seeking new knowledge and challenges across technical and scientific domains. I thrive in environments that push me to learn, adapt, and improve. I believe deeply in the value of social relationships, constructive debate, and continuous personal growth.',
-                    style: Theme.of(context).textTheme.bodyLarge?.copyWith(
-                      fontWeight: FontWeight.w600,
-                    ),
-                  ),
-                  const SizedBox(height: 16),
-                  Text(
-                    'Outside of work, I stay active through swimming and fitness, enjoy chess as a mental challenge, and apply an analytical mindset to geopolitics. I am deeply fascinated by the sciences, particularly medicine and chemistry, and I feed a broad curiosity through reading manga, traveling, and actively managing my personal finances and investment portfolio with a strong passion for markets and long-term wealth building.',
+                    'Driven by an insatiable curiosity and a competitive mindset, I am constantly seeking new knowledge and challenges across technical and scientific domains. I thrive in environments that push me to learn, adapt, and improve. I believe deeply in the value of social relationships, constructive debate, and continuous personal growth.
+                    Outside of work, I stay active through swimming and fitness, enjoy chess as a mental challenge, and apply an analytical mindset to geopolitics. I am deeply fascinated by the sciences, particularly medicine and chemistry, and I feed a broad curiosity through reading manga, traveling, and actively managing my personal finances and investment portfolio with a strong passion for markets and long-term wealth building.',
                     style: Theme.of(context).textTheme.bodyMedium,
                   ),
                   const SizedBox(height: 16),
